@@ -1,5 +1,5 @@
 """
-LangGraph-based agent for ScrapeCraft with proper state management and workflow orchestration.
+LangGraph-based agent for FlowForge AI with proper state management and workflow orchestration.
 """
 from typing import Dict, List, Optional, TypedDict, Annotated, Sequence, Literal, Any
 from enum import Enum
@@ -871,3 +871,7 @@ if __name__ == "__main__":
                 "requires_approval": False,
                 "errors": [str(e)]
             }
+
+
+# Alias for rebranding
+FlowForgeAgent = ScrapeCraftAgent

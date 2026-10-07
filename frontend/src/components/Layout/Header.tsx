@@ -13,8 +13,8 @@ const Header: React.FC = () => {
     <header className="bg-secondary border-b border-border px-6 py-3 flex items-center justify-between">
       <div className="flex items-center space-x-4">
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="ScrapeCraft" className="h-8 w-8" />
-          <h1 className="text-xl font-semibold text-primary">ScrapeCraft</h1>
+          <img src={logo} alt="FlowForge AI" className="h-8 w-8" />
+          <h1 className="text-xl font-semibold text-primary">FlowForge AI</h1>
         </div>
         {currentPipeline && (
           <span className="text-sm text-muted">

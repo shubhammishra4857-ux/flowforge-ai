@@ -1,5 +1,5 @@
 """
-Unified Conversational Agent for ScrapeCraft
+Unified Conversational Agent for FlowForge AI
 A Cursor-like intelligent assistant for web scraping that learns and improves.
 """
 from typing import Dict, List, Optional, Any, Tuple
@@ -79,7 +79,7 @@ class UnifiedScrapingAgent:
     
     def _build_system_prompt(self) -> str:
         """Build the system prompt for the agent."""
-        return """You are ScrapeCraft AI, an intelligent conversational assistant for web scraping, similar to how Cursor works for coding.
+        return """You are FlowForge AI, an intelligent conversational assistant for web scraping, similar to how Cursor works for coding.
 
 Your capabilities:
 1. **Conversational Understanding**: Maintain context across conversations and learn from interactions

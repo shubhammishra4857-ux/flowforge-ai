@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     OPENROUTER_MODEL: str = "moonshotai/kimi-k2"
     
     # App Config
-    APP_NAME: str = "ScrapeCraft"
+    APP_NAME: str = "FlowForge AI"
     VERSION: str = "1.0.0"
     DEBUG: bool = True
     

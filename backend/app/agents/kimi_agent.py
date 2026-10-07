@@ -50,7 +50,7 @@ class KimiScrapingAgent:
         
         # Create prompt
         prompt = ChatPromptTemplate.from_messages([
-            ("system", """You are ScrapeCraft AI, an expert assistant for building web scraping pipelines using ScrapeGraphAI.
+            ("system", """You are FlowForge AI, an expert assistant for building web scraping pipelines using ScrapeGraphAI.
 
 Your role is to help users:
 1. Add and manage URLs they want to scrape

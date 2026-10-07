@@ -41,7 +41,7 @@ const StatusBar: React.FC = () => {
       </div>
       
       <div className="flex items-center space-x-4 text-xs text-muted">
-        <span>ScrapeCraft made by ScrapeGraphAI</span>
+        <span>FlowForge AI</span>
         <div className="flex items-center space-x-2">
           <div className={`w-2 h-2 rounded-full ${connectionStatus === 'connected' ? 'bg-success' : 'bg-error'}`} />
           <span className={getStatusColor(connectionStatus)}>

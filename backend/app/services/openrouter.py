@@ -10,7 +10,7 @@ def get_llm():
         temperature=0.7,
         streaming=True,
         default_headers={
-            "HTTP-Referer": "https://scrapecraft.app",
-            "X-Title": "ScrapeCraft"
+            "HTTP-Referer": "https://flowforge.ai",
+            "X-Title": "FlowForge AI"
         }
     )

@@ -1,6 +1,6 @@
-# ScrapeCraft - AI-Powered Web Scraping Editor
+# FlowForge AI - AI-Powered Web Scraping Editor
 
-ScrapeCraft is a web-based scraping editor similar to Cursor but specialized for web scraping. It uses AI assistance to help users build scraping pipelines with the ScrapeGraphAI API.
+FlowForge AI is a web-based scraping editor similar to Cursor but specialized for web scraping. It uses AI assistance to help users build scraping pipelines with the ScrapeGraphAI API.
 
 https://github.com/user-attachments/assets/defaf7ad-23da-40b7-82cd-3b2a4d1d22c9
 

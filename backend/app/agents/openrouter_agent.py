@@ -13,7 +13,7 @@ class OpenRouterAgent:
         self.scraping_service = ScrapingService(settings.SCRAPEGRAPH_API_KEY)
         # Store conversation history per pipeline
         self.conversation_history: Dict[str, List[Dict]] = {}
-        self.system_prompt = """You are ScrapeCraft AI, an expert assistant for building web scraping pipelines using ScrapeGraphAI's SmartScraper API.
+        self.system_prompt = """You are FlowForge AI, an expert assistant for building web scraping pipelines using ScrapeGraphAI's SmartScraper API.
 
 Your capabilities:
 1. Help users add URLs to scrape - ALWAYS search for proper URLs using search functionality

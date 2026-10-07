@@ -20,7 +20,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
           {!isUser && (
             <img src={logo} alt="AI" className="h-4 w-4" />
           )}
-          <span>{isUser ? 'You' : 'ScrapeCraft AI'}</span>
+          <span>{isUser ? 'You' : 'FlowForge AI'}</span>
         </span>
         <span className="text-xs text-muted">
           {format(new Date(message.timestamp), 'HH:mm')}
